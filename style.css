@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    color: #F9FAF8;
     margin: 0;
     padding: 0;
 }
@@ -9,17 +10,60 @@ body {
     display: flex;
     align-items: center;
     justify-content: Space-between;
-    padding: 0 10%;
+    padding: 0 120px;
 }
 
 .header-links {
     font-size: 14px;
+    color: #E5E7EB;
     display: flex;
     gap: 30px;
 }
 
-a, h4 {
+a {
     color: #F9FAF8;
     text-decoration: none;
 }
 
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 120px;
+}
+
+.hero-content {
+    padding-right: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 0;
+    margin: 0;
+}
+
+.hero-sub {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 450px;
+}
+
+button {
+    border-style: none;
+    background-color: #3882F6;
+    font-weight: 800;
+    border-radius: 6px;
+    padding: 8px 24px;
+    max-width: 150px;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    min-width: 200px;
+}
